@@ -63,7 +63,7 @@ void loop() {
 
     weight = scale.get_units(1);
 
-    doc["a"] = ax;
+    doc["a"] = ay;
     doc["w"] = weight;
 
     Serial.println(weight);
